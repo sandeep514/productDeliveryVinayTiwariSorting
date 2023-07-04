@@ -202,7 +202,7 @@ const App = () => {
 					/>
 				</View>
 				
-				<View>
+				<View style={{height: '80%'}}>
 					{(LoadingBuyerList)?
 						<View>
 							<ActivityIndicator size="large" color="red" />
